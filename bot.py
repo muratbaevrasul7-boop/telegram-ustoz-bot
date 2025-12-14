@@ -1,8 +1,8 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = "8572236279:AAFO1GNsYJFOcFI5qv1jcSDpOSQ4nSYDa6A"
-USTOZ_CHAT_ID = 183827140
+TOKEN = ""
+USTOZ_CHAT_ID =
 
 async def handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.message.from_user
